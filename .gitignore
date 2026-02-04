@@ -1,0 +1,41 @@
+# MATLAB files
+*.asv
+*.m~
+*.mex*
+*.slxc
+
+# Data files (exclude large data files from version control)
+data/raw/*.mat
+data/raw/*.dat
+data/raw/*.lfp
+data/raw/*.eeg
+data/processed/*.mat
+*.ncs
+*.nev
+*.nex
+
+# Results (keep structure but not all output files)
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.fig
+results/figures/*.eps
+results/stats/*.mat
+results/stats/*.txt
+
+# FieldTrip toolbox (should be installed separately)
+fieldtrip/
+external/fieldtrip/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# Temporary files
+*.log
+temp/
+tmp/
+
+# IDE files
+.vscode/
+.idea/
